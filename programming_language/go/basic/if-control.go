@@ -19,6 +19,13 @@ func pow(x, n, lim float64) float64 {
 	return lim
 }
 
+func nd(z float32) {
+	for i := 1; i <= 10; i++ {
+		fmt.Println(sqrt(z))
+		z = z - (z*z - x)
+	}
+}
+
 func main() {
 	// fmt.Println(sqrt(2), sqrt(-4))
 

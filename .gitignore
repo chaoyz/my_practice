@@ -120,4 +120,6 @@ venv.bak/
 # mac file
 .DS_Store
 
+.vscode
+.idea
 # End of https://www.gitignore.io/api/go,python,java-web
